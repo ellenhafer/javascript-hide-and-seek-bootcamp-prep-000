@@ -10,7 +10,7 @@ function increaseRankBy(n) {
   var rankedList = document.querySelectorAll("ul.ranked-list li");
   rankedList.forEach(function(){
     var rankedListTextContent = parseInt(rankedList.textContent);
-    rankedList.textContent = rankedListTextContent + 1;
+    rankedList.textContent = rankedListTextContent + n;
   });
   //access .ranked-list
   //loop through each item
