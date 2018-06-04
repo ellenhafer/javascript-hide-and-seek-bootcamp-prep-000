@@ -12,9 +12,6 @@ function increaseRankBy(n) {
     var rankedListTextContent = parseInt(rankedList.textContent);
     rankedList.textContent = rankedListTextContent + 1;
   });
-  for (let i = 0; i < rankedList.length; i++) {
-    rankedList[i].innerHTML = parseInt(i + 1);
-  }
   //access .ranked-list
   //loop through each item
   //increase rank by n
